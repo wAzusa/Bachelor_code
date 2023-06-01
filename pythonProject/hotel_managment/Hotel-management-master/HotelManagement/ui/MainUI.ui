@@ -52,10 +52,10 @@ background:#e1e9ed;
    <widget class="QToolButton" name="clientbutton">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>220</y>
-      <width>200</width>
-      <height>120</height>
+      <x>550</x>
+      <y>230</y>
+      <width>161</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
@@ -85,10 +85,10 @@ background:#e1e9ed;
    <widget class="QToolButton" name="toolButton_6">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>380</y>
-      <width>200</width>
-      <height>120</height>
+      <x>330</x>
+      <y>330</y>
+      <width>161</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
@@ -118,10 +118,10 @@ background:#e1e9ed;
    <widget class="QToolButton" name="orderbutton">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>380</y>
-      <width>200</width>
-      <height>120</height>
+      <x>100</x>
+      <y>410</y>
+      <width>161</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
@@ -151,10 +151,10 @@ background:#e1e9ed;
    <widget class="QToolButton" name="roombutton">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>220</y>
-      <width>200</width>
-      <height>120</height>
+      <x>100</x>
+      <y>230</y>
+      <width>161</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
@@ -187,10 +187,10 @@ background:#e1e9ed;
    <widget class="QToolButton" name="staffbutton">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>220</y>
-      <width>200</width>
-      <height>120</height>
+      <x>550</x>
+      <y>410</y>
+      <width>161</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="font">
@@ -217,93 +217,11 @@ background:#e1e9ed;
      <enum>Qt::ToolButtonTextUnderIcon</enum>
     </property>
    </widget>
-   <widget class="QFrame" name="frame">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>800</width>
-      <height>180</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="welcome">
-     <property name="geometry">
-      <rect>
-       <x>40</x>
-       <y>10</y>
-       <width>751</width>
-       <height>51</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>幼圆</family>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-    <widget class="QToolButton" name="toolButton_7">
-     <property name="geometry">
-      <rect>
-       <x>370</x>
-       <y>70</y>
-       <width>71</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../../../pictures/hotel.png</normaloff>../../../../../pictures/hotel.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>100</width>
-       <height>100</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QToolButton" name="modifyPwd">
-     <property name="geometry">
-      <rect>
-       <x>710</x>
-       <y>150</y>
-       <width>81</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background:#e1e9ed</string>
-     </property>
-     <property name="text">
-      <string>修改密码</string>
-     </property>
-    </widget>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>540</y>
+      <x>20</x>
+      <y>560</y>
       <width>241</width>
       <height>41</height>
      </rect>
@@ -756,7 +674,7 @@ background:#e1e9ed;
      </font>
     </property>
     <property name="text">
-     <string>宾馆管理系统--Designed by WZK</string>
+     <string>Designed by WZK</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -1216,7 +1134,45 @@ background:#e1e9ed;
      </font>
     </property>
     <property name="text">
-     <string>version 2.0</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcome">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>751</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>幼圆</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="modifyPwd">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>560</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#e1e9ed</string>
+    </property>
+    <property name="text">
+     <string>修改密码</string>
     </property>
    </widget>
   </widget>

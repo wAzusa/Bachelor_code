@@ -197,29 +197,11 @@ border-color:#6699CC;
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>40</x>
-       <y>140</y>
-       <width>121</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>*表示需要最高权限</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="Search">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>170</y>
+       <y>100</y>
        <width>145</width>
        <height>25</height>
       </rect>
@@ -1430,6 +1412,24 @@ background:#CCFF99
       </property>
      </widget>
     </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>560</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>*表示需要最高权限</string>
+    </property>
    </widget>
   </widget>
  </widget>

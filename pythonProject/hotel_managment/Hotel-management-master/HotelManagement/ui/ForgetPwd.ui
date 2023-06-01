@@ -55,10 +55,10 @@ border-bottom:1px solid #717072;
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>70</y>
-      <width>491</width>
-      <height>511</height>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>611</height>
      </rect>
     </property>
     <property name="font">
@@ -76,33 +76,11 @@ border-bottom:1px solid #717072;
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>70</y>
-       <width>151</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Century Gothic</family>
-       <pointsize>-1</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>LOGIN HERE</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEdit_idcard">
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>160</y>
+       <y>230</y>
        <width>361</width>
        <height>31</height>
       </rect>
@@ -118,7 +96,7 @@ border-bottom:1px solid #717072;
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>260</y>
+       <y>310</y>
        <width>361</width>
        <height>31</height>
       </rect>
@@ -148,9 +126,9 @@ border-bottom:1px solid #717072;
     <widget class="QPushButton" name="commitButton">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>430</y>
-       <width>421</width>
+       <x>540</x>
+       <y>380</y>
+       <width>151</width>
        <height>51</height>
       </rect>
      </property>
@@ -162,7 +140,7 @@ border-bottom:1px solid #717072;
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>120</y>
+       <y>190</y>
        <width>121</width>
        <height>31</height>
       </rect>
@@ -183,7 +161,7 @@ border-bottom:1px solid #717072;
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>220</y>
+       <y>270</y>
        <width>121</width>
        <height>31</height>
       </rect>
@@ -196,7 +174,7 @@ border-bottom:1px solid #717072;
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>320</y>
+       <y>360</y>
        <width>121</width>
        <height>31</height>
       </rect>
@@ -209,7 +187,7 @@ border-bottom:1px solid #717072;
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>360</y>
+       <y>400</y>
        <width>361</width>
        <height>31</height>
       </rect>
@@ -237,39 +215,13 @@ border-bottom:1px solid #717072;
      </property>
     </widget>
    </widget>
-   <widget class="QToolButton" name="toolButton">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>10</y>
-      <width>121</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="locale">
-     <locale language="Chinese" country="China"/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../../../../pictures/login.png</normaloff>../../../../../pictures/login.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>150</width>
-      <height>150</height>
-     </size>
-    </property>
-   </widget>
    <widget class="QToolButton" name="retLogin">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>520</y>
-      <width>141</width>
-      <height>81</height>
+      <x>790</x>
+      <y>590</y>
+      <width>20</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
@@ -284,20 +236,20 @@ background:rgba(0,0,0,0.8)
 </string>
     </property>
     <property name="text">
-     <string>忘记密码？</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>560</y>
+      <y>460</y>
       <width>131</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>返回登录</string>
+     <string/>
     </property>
    </widget>
   </widget>

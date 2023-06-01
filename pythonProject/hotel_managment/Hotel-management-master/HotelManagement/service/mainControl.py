@@ -13,7 +13,7 @@ class MainWindow(QMainWindow,Ui_MainWindow):
         self.setupUi(self)
         self.staff = globalValue.get_staff()
         print(self.staff.sname[0])
-        self.welcome.setText(self.staff.sname + ',你好。你的权限为：' + self.staff.srole + '。今天是' + time.strftime("%Y-%m-%d", time.localtime()))
+        self.welcome.setText(self.staff.sname + ',你的权限为：' + self.staff.srole + '。今天是' + time.strftime("%Y-%m-%d", time.localtime()))
         self.staffbutton.clicked.connect(self.gotoStaff)
         self.roombutton.clicked.connect(self.gotoRoom)
         self.clientbutton.clicked.connect(self.gotoClient)
