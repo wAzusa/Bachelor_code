@@ -5,10 +5,7 @@ import time
 
 class MainWindow(QMainWindow,Ui_MainWindow):
     def __init__(self,parent=None):
-        """
-        传入staff全局变量
-        :param parent:
-        """
+
         super(MainWindow, self).__init__(parent)
         self.setupUi(self)
         self.staff = globalValue.get_staff()
